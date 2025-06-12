@@ -102,7 +102,7 @@ with col2:
 # --- Skills
 st.write("#")
 st.subheader("Skills")
-col1, col2 =st.columns(2, gap="small")
+col1, col2, col3 =st.columns(3, gap="small")
 with col1:
     st.write(
     """
@@ -126,7 +126,15 @@ with col2:
         """
 
     )
+with col3:
+    st.write(
+        """
+        - Video editing
+        - Adobe Lightroom
+        - Adobe Photoshop
+        """
 
+    )
 # --- Project Experience ---
 st.write("#")
 st.subheader("Project Experience")
