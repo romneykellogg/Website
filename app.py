@@ -25,6 +25,9 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/r-kellogg/",
 }
 PROJECTS = {
+    ":desert_island: USTDA Fiji Project to Electrify 75 Rural Sites":"https://www.youtube.com/watch?v=P1Hva7hnrTw",
+    # ":energy: Energy Exhibit ":"link",
+    # ":wave: Haboob Simulator":"link",
     ":snake: Foldable Robotics-Snake Rectilinear Motion":"https://www.youtube.com/watch?v=gsyXnS8U5l4&t=175s",
     ":mag_right: TPI Composites Investigation":"https://www.youtube.com/watch?v=7bNRF8twaAA",
 }
@@ -69,28 +72,125 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-# ---- Experience & Qualifications ---
+# --- Education
 st.write("#")
-st.subheader("Experience & Qualifications")
-st.write(
-    """
-    - :heavy_check_mark: things
-    - :heavy_check_mark: things
-    - :heavy_check_mark: things
-    """
+st.subheader("Education")
+col1, col2 =st.columns(2, gap="small")
+with col1:
+    st.write("PhD Systems Engineering")
+    st.write("MSE Robotics and Automated Systems")
+    st.write("BSE Robotics Engineering ")
+    st.write("Associate of Arts")
 
-)
+with col2:
+    st.write("Arizona State University, AZ | 2025")
+    st.write("Arizona State University, AZ | 2022")
+    st.write("Arizona State University, AZ | 2021")
+    st.write("Clark College, WA | 2015")
+# # ---- Experience & Qualifications ---
+# st.write("#")
+# st.subheader("Experience & Qualifications")
+# st.write(
+#     """
+#     - :heavy_check_mark: things
+#     - :heavy_check_mark: things
+#     - :heavy_check_mark: things
+#     """
+#
+# )
 
 # --- Skills
 st.write("#")
 st.subheader("Skills")
-st.write(
+col1, col2 =st.columns(2, gap="small")
+with col1:
+    st.write(
     """
-    - :heavy_check_mark: things
-    - :heavy_check_mark: things
-    - :heavy_check_mark: things
+    -  MATLAB
+    -  Python
+    -  Data Analysis
+    -  Excel
+    -  PCB Design
+    
     """
 
+)
+with col2:
+    st.write(
+        """
+        -  Xendee
+        -  SolidWorks (CSWA 2021)
+        -  HAM Radio (KK7CUZ)
+        -  Technical Writing
+        -  B1 Spanish
+        """
+
+    )
+
+# --- Project Experience ---
+st.write("#")
+st.subheader("Project Experience")
+st.write("---")
+
+# --- Project 1
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("USTDA Fiji Project to Electrify 75 Rural Sites")
+with col2:
+    st.write(" 2022 - Present ")
+st.write(
+    """
+    - Led techno-economic and load profile creation subgroup                                                                                
+    - Created Python code to run 75+ sites in batch optimization analysis with the Xendee API
+    - Developed modeling methods that reduce load estimation analysis time by 80%
+    - Designed and ran test scenarios to justify project assumptions
+    - Co-authored 6 project reports relating to load demand
+    - Managed 2 student workers on data analysis and python activities
+    """
+)
+
+# --- Project 2
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("Energy Exhibit ")
+with col2:
+    st.write("2023")
+st.write(
+    """
+    - Consulted with design students to demonstrate function of wind power and power plants                                                                                
+    - Designed electrical system and user interface for 2 interactive systems
+    - Reviewed and updated educational design to ensure appropriate representations of energy systems
+    
+    """
+)
+
+# --- Project 3
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("Haboob Simulator")
+with col2:
+    st.write("2022")
+st.write(
+    """
+    - Designed and implemented an electrical system for a haboob simulator for a children’s museum                                                                                
+    - Coded and tested the haboob simulator
+    - Lead software design and development to include user interface
+
+    """
+)
+
+# --- Project 4
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("Rectilinear Locomotion Robot ")
+with col2:
+    st.write("2020")
+st.write(
+    """
+    - Designed and implemented an electrical system for a foldable robot                                                                                
+    - Lead the software development for the control system
+
+    """
 )
 
 # --- Work History ---
@@ -99,18 +199,72 @@ st.subheader("Work History")
 st.write("---")
 
 # --- Job 1
-st.write("job name")
-st.write(" 05/2020 - Present ")
-st.write("---")
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("ASU LEAPS Graduate Research Assistant ")
+with col2:
+    st.write(" 2022 - Present ")
+st.write(
+    """
+    - Conducts research in energy system planning for off-grid systems globally                                                                                
+    - Codes in MATLAB and Python to optimize large-scale energy control systems
+    - Creates learning and training content on electricity and energy systems for all ages
 
-# --- Projects & Accomplishments
+    """
+)
+
+# --- Job 2
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("ASU LEAPS Research Assistant")
+with col2:
+    st.write(" 2019 - 2022 ")
+st.write(
+    """
+    - Created workforce development content within the microgrid and energy field
+    - Created K-12 content within the microgrid and energy field  
+    - Provided consultation with microgrid testbeds for military applications
+    - Tested and maintained large-scale energy assets 
+
+
+    """
+)
+
+# --- Volunteer Experience
 st.write("#")
-st.subheader("Projects & Accomplishments")
+st.subheader("Volunteer Experience")
+st.write("---")
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("FRC Team 6471 Mechanical Mentor ")
+with col2:
+    st.write(" 2021 - Present")
+st.write(
+    """
+    - Mentors 20 high school students in engineering design, mechanical design, fabrication, manual and CNC machining
+    """
+)
+
+# --- Projects
+st.write("#")
+st.subheader("Projects")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 
-# --- Projects & Accomplishments
+# --- Achievements:
+st.write("#")
+st.subheader("Achievements")
+col1, col2 =st.columns(2, gap="small")
+with col1:
+    st.write("ASU LEAPS Scholarship Recipient")
+    st.write("SCI4DI Nominee")
+    st.write("Dean's Fellowship Recipient")
+with col2:
+    st.write("2025")
+    st.write("2024")
+    st.write("2022")
+# --- Media
 st.write("#")
 st.subheader("Media")
 st.write("---")
