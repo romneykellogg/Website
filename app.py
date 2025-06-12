@@ -168,7 +168,6 @@ st.write(
     - Consulted with design students to demonstrate function of wind power and power plants                                                                                
     - Designed electrical system and user interface for 2 interactive systems
     - Reviewed and updated educational design to ensure appropriate representations of energy systems
-    
     """
 )
 
