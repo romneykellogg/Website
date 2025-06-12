@@ -201,7 +201,7 @@ st.write("---")
 # --- Job 1
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.write("ASU LEAPS Graduate Research Assistant ")
+    st.write("ASU LEAPS Graduate Research Assistant | Arizona State University - Mesa, AZ")
 with col2:
     st.write(" 2022 - Present ")
 st.write(
@@ -216,7 +216,7 @@ st.write(
 # --- Job 2
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.write("ASU LEAPS Research Assistant")
+    st.write("ASU LEAPS Research Assistant | Arizona State University - Mesa, AZ")
 with col2:
     st.write(" 2019 - 2022 ")
 st.write(
@@ -226,7 +226,97 @@ st.write(
     - Provided consultation with microgrid testbeds for military applications
     - Tested and maintained large-scale energy assets 
 
+    """
+)
+# --- Job 3
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("ASU University Housing CSR & Tour Guide) | Arizona State University - Tempe, AZ")
+with col2:
+    st.write(" 2018 - 2019 ")
+st.write(
+    """
+    - Conducted tours with 70+ attendees for every housing dorm on the ASU Tempe campus
+    - Resolved 50+ complaints per day for 3 different ASU campuses, while offering additional resources to ensure a               
+    pleasant ASU experience for the students and their families 
 
+    """
+)
+
+# --- Job 4
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("Walt Disney World Park Greeter) | Walt Disney World - Orlando, FL")
+with col2:
+    st.write(" 2017 - 2018 ")
+st.write(
+    """
+    - Provided excellent and comprehensive customer service to approximately 2,500 daily guests in Spanish and English 
+    - Ensured the safety of the audience and parade performers by monitoring audience members, communicating with 
+    coworkers using verbal and nonverbal communication, keeping emergency exits clear, and monitoring parade performers 
+    to allow for a quick exit
+
+    """
+)
+
+# --- Job 5
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("Right2BHeard Videographer | Right2BHeard, Vancouver - WA")
+with col2:
+    st.write(" 2016 - 2017 ")
+st.write(
+    """
+    - Videotaped, edited, and uploaded 50+ local political events to social media to encourage community engagement in 
+    local politics
+
+    """
+)
+
+# --- Job 6
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("Robotics & Test Engineering Intern | Sharp Microelectronics - Camas, WA ")
+with col2:
+    st.write(" 2016 ")
+st.write(
+    """
+    - Built a ½ mile long test track to test 100lb robotic prototypes 
+    - Created and ran test plans for automated robots utilizing GPS and vision tracking
+    - Worked along software and robotic engineers in trouble shooting automated robots 
+
+    """
+)
+
+# --- Job 7
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("Boeing Tech Prep Intern (Summer) | The Boeing Company - Portland, OR")
+with col2:
+    st.write(" 2014 - 2016 ")
+st.write(
+    """
+    - Completed training in the use of high-powered machines: lathes, mills, drill presses, sanders, and various other 
+    cutting tools
+    - Designed and machined a rocket boat using AutoCAD, and data analytics scoring the highest in overall efficiency, 
+    material cost, and safety  
+    - Job shadowed six positions on the factory floor. Worked alongside professionals in the Chemistry Lab, Bulkhead 
+    Assembly, and Research and Development team
+    
+    """
+)
+
+# --- Job 8
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.write("Peer Mentor Student Leadership Position | Clark College - Vancouver, WA")
+with col2:
+    st.write(" 2014 - 2016 ")
+st.write(
+    """
+    - Provided academic support resources to 100+ struggling students identified by their professors each semester
+    - Created and lead 10+ academic success events and workshops for the student body and community  
+    
     """
 )
 
