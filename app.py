@@ -16,7 +16,7 @@ media_pic2 = current_dir / "assets" / "RomneyMedia2.jpg"
 
 PAGE_TITLE = "Digital CV | Romney Kellogg"
 PAGE_ICON = ":wave:"
-EMAIL_ICON = ":email:"
+EMAIL_ICON = ":mailbox:"
 NAME = "Romney Kellogg"
 DESCRIPTION = " Recent PhD Graduate"
 
@@ -77,15 +77,15 @@ st.write("#")
 st.subheader("Education")
 col1, col2 =st.columns(2, gap="small")
 with col1:
-    st.write("PhD Systems Engineering")
-    st.write("MSE Robotics and Automated Systems")
-    st.write("BSE Robotics Engineering ")
-    st.write("Associate of Arts")
+    st.write("**PhD Systems Engineering**")
+    st.write("**MSE Robotics and Automated Systems**")
+    st.write("**BSE Robotics Engineering**")
+    st.write("**Associate of Arts**")
 
 with col2:
-    st.write("Arizona State University, AZ | 2025")
-    st.write("Arizona State University, AZ | 2022")
-    st.write("Arizona State University, AZ | 2021")
+    st.write("Arizona State University,  AZ | 2025")
+    st.write("Arizona State University,  AZ | 2022")
+    st.write("Arizona State University,  AZ | 2021")
     st.write("Clark College, WA | 2015")
 # # ---- Experience & Qualifications ---
 # st.write("#")
@@ -133,9 +133,9 @@ st.subheader("Project Experience")
 st.write("---")
 
 # --- Project 1
-col1, col2 = st.columns(2, gap="small")
+col1, col2 = st.columns(2, gap="large")
 with col1:
-    st.write("USTDA Fiji Project to Electrify 75 Rural Sites")
+    st.write("**USTDA Fiji Project to Electrify 75 Rural Sites**")
 with col2:
     st.write(" 2022 - Present ")
 st.write(
@@ -150,9 +150,9 @@ st.write(
 )
 
 # --- Project 2
-col1, col2 = st.columns(2, gap="small")
+col1, col2 = st.columns(2, gap="large")
 with col1:
-    st.write("Energy Exhibit ")
+    st.write("**Energy Exhibit**")
 with col2:
     st.write("2023")
 st.write(
@@ -165,9 +165,9 @@ st.write(
 )
 
 # --- Project 3
-col1, col2 = st.columns(2, gap="small")
+col1, col2 = st.columns(2, gap="large")
 with col1:
-    st.write("Haboob Simulator")
+    st.write("**Haboob Simulator**")
 with col2:
     st.write("2022")
 st.write(
@@ -180,9 +180,9 @@ st.write(
 )
 
 # --- Project 4
-col1, col2 = st.columns(2, gap="small")
+col1, col2 = st.columns(2, gap="large")
 with col1:
-    st.write("Rectilinear Locomotion Robot ")
+    st.write("**Rectilinear Locomotion Robot**")
 with col2:
     st.write("2020")
 st.write(
@@ -199,11 +199,14 @@ st.subheader("Work History")
 st.write("---")
 
 # --- Job 1
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.write("ASU LEAPS Graduate Research Assistant | Arizona State University - Mesa, AZ")
+    st.write("**ASU LEAPS Graduate Research Assistant**")
 with col2:
+    st.write("*Arizona State University - Mesa, AZ*")
+with col3:
     st.write(" 2022 - Present ")
+# st.write("Arizona State University - Mesa, AZ")
 st.write(
     """
     - Conducts research in energy system planning for off-grid systems globally                                                                                
@@ -214,10 +217,12 @@ st.write(
 )
 
 # --- Job 2
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.write("ASU LEAPS Research Assistant | Arizona State University - Mesa, AZ")
+    st.write("**ASU LEAPS Research Assistant**")
 with col2:
+    st.write("*Arizona State University - Mesa, AZ*")
+with col3:
     st.write(" 2019 - 2022 ")
 st.write(
     """
@@ -229,10 +234,12 @@ st.write(
     """
 )
 # --- Job 3
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.write("ASU University Housing CSR & Tour Guide) | Arizona State University - Tempe, AZ")
+    st.write("**ASU University Housing CSR & Tour Guide)**")
 with col2:
+    st.write("*Arizona State University - Tempe, AZ*")
+with col3:
     st.write(" 2018 - 2019 ")
 st.write(
     """
@@ -244,10 +251,12 @@ st.write(
 )
 
 # --- Job 4
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.write("Walt Disney World Park Greeter) | Walt Disney World - Orlando, FL")
+    st.write("**Walt Disney World Park Greeter)**")
 with col2:
+    st.write("*Walt Disney World - Orlando, FL*")
+with col3:
     st.write(" 2017 - 2018 ")
 st.write(
     """
@@ -260,10 +269,12 @@ st.write(
 )
 
 # --- Job 5
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.write("Right2BHeard Videographer | Right2BHeard, Vancouver - WA")
+    st.write("**Right2BHeard Videographer**")
 with col2:
+    st.write("*Right2BHeard, Vancouver - WA*")
+with col3:
     st.write(" 2016 - 2017 ")
 st.write(
     """
@@ -274,10 +285,12 @@ st.write(
 )
 
 # --- Job 6
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.write("Robotics & Test Engineering Intern | Sharp Microelectronics - Camas, WA ")
+    st.write("**Robotics & Test Engineering Intern**")
 with col2:
+    st.write("*Sharp Microelectronics - Camas, WA*")
+with col3:
     st.write(" 2016 ")
 st.write(
     """
@@ -289,10 +302,12 @@ st.write(
 )
 
 # --- Job 7
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.write("Boeing Tech Prep Intern (Summer) | The Boeing Company - Portland, OR")
+    st.write("**Boeing Tech Prep Intern (Summer)**")
 with col2:
+    st.write("*The Boeing Company - Portland, OR*")
+with col3:
     st.write(" 2014 - 2016 ")
 st.write(
     """
@@ -307,10 +322,12 @@ st.write(
 )
 
 # --- Job 8
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
-    st.write("Peer Mentor Student Leadership Position | Clark College - Vancouver, WA")
+    st.write("**Peer Mentor Student Leadership Position**")
 with col2:
+    st.write("*Clark College - Vancouver, WA*")
+with col3:
     st.write(" 2014 - 2016 ")
 st.write(
     """
@@ -324,10 +341,12 @@ st.write(
 st.write("#")
 st.subheader("Volunteer Experience")
 st.write("---")
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="small")
 with col1:
-    st.write("FRC Team 6471 Mechanical Mentor ")
+    st.write("**FRC Team 6471 Mechanical Mentor**")
 with col2:
+    st.write("*Si Se Puede Foundation- Chandler, AZ*")
+with col3:
     st.write(" 2021 - Present")
 st.write(
     """
@@ -347,13 +366,15 @@ st.write("#")
 st.subheader("Achievements")
 col1, col2 =st.columns(2, gap="small")
 with col1:
-    st.write("ASU LEAPS Scholarship Recipient")
-    st.write("SCI4DI Nominee")
-    st.write("Dean's Fellowship Recipient")
+    st.write("**ASU LEAPS Scholarship Recipient**")
+    st.write("**SCI4DI Nominee**")
+    st.write("**Dean's Fellowship Recipient**")
+    st.write("**Clark College President Award**")
 with col2:
     st.write("2025")
     st.write("2024")
     st.write("2022")
+    st.write("2016")
 # --- Media
 st.write("#")
 st.subheader("Media")
