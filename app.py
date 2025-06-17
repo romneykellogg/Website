@@ -111,6 +111,11 @@ with col1:
     -  Data Analysis
     -  Excel
     -  PCB Design
+    -  BESS
+    -  Microgrids & Mini-grids
+    -  Renewable Energy Systems
+    -  Control Systems
+    -  SCADA
     
     """
 
@@ -119,10 +124,13 @@ with col2:
     st.write(
         """
         -  Xendee
+        -  REopt
+        -  Business Plans
         -  SolidWorks (CSWA 2021)
         -  HAM Radio (KK7CUZ)
         -  Technical Writing
         -  B1 Spanish
+        
         """
 
     )
