@@ -102,34 +102,30 @@ with col2:
 # --- Skills
 st.write("#")
 st.subheader("Skills")
-col1, col2, col3 =st.columns(3, gap="small")
+col1, col2, col3, col4 =st.columns(4, gap="small")
 with col1:
     st.write(
     """
-    -  MATLAB
-    -  Python
-    -  Data Analysis
-    -  Excel
-    -  PCB Design
-    -  BESS
-    -  Microgrids & Mini-grids
-    -  Renewable Energy Systems
-    -  Control Systems
-    -  SCADA
-    
+    - Energy Systems Modeling
+    - Clean Energy Technologies
+    - Power Systems Engineering
+    - Robotics
+    - Automated Systems
+    - SCADA
+    - Microgrid/Mini-grid Design
     """
 
 )
 with col2:
     st.write(
         """
-        -  Xendee
-        -  REopt
-        -  Business Plans
-        -  SolidWorks (CSWA 2021)
-        -  HAM Radio (KK7CUZ)
-        -  Technical Writing
-        -  B1 Spanish
+        - MATLAB
+        - Python
+        - SolidWorks (CSWA 2021)
+        - AutoCAD
+        - ETAP
+        - Data Analysis
+        - Excel & Microsoft Suite
         
         """
 
@@ -137,6 +133,19 @@ with col2:
 with col3:
     st.write(
         """
+        - Salesforce
+        - Technical Writing
+        - Printed Circuit Board Design
+        - Xendee
+        - REopt
+        - Customer Service
+        - Intermediate Spanish (B2) 
+        """
+
+    )
+with col4:
+    st.write(
+        """ 
         - Video editing
         - Adobe Lightroom
         - Adobe Photoshop
@@ -347,7 +356,7 @@ with col3:
 st.write(
     """
     - Provided academic support resources to 100+ struggling students identified by their professors each semester
-    - Created and lead 10+ academic success events and workshops for the student body and community  
+    - Created and led 10+ academic success events and workshops for the student body and community  
     
     """
 )
